@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+    margin: 0;  
+    padding: 0;  
+    font-size: 100%;  
+    font: inherit;  
+    vertical-align: baseline;  
+    box-sizing:border-box;
+    max-width:100%;
+    /* border: 1px solid grey; */
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.forest {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 30px 20px;
+}
+
+.forestConatiner {
+    display:inline-block;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 60px;
+}
+
+.textContainer {
+    display: inline-block;
+    line-height: 50px;
+}
+
+.always {
+    text-align: center;
+    /* width: 50% 50%; */
+}
+
+.fire, .bus {
+    height: 100px;
+    width: 100px;
+}
+
+.mountain {
+    background: url("./assets/footer_img.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    height: 300px;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+    height: 100px;
+    /* margin: 50%; */
+}
+
+nav a {
+    padding: 20px 50px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15%;
+    margin: 2% 5% 2%;
+    color: white;
+}
+
+nav {
+    padding: 4%;
+}
+
+.foot {
+    height: 200px;
+}
+
+footer nav {
+    text-align: center;
+}
+
+.paragraphs {
+    width: 95%;
+    text-align: center;
+    display: inline-block;
+    padding: 150 px;
+    background-color: #DDB9A3;
+    margin: 20px 50px 20px 40px;
+    color: white;
+
+}
+
+.pictures {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.para {
+    padding: 30px 50px;
+    width: 20%;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 10px;
+}
+
+
+.plan {
+    background: #FF764E;
+}
+
+.learn {
+    background: #5ED3EB;
+}
+
+.get {
+    background: #FFCD69;
+}
+
+footer {
+    background-color: #F9E7DC ;
+}
